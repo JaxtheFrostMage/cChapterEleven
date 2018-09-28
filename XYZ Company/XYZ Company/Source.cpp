@@ -15,7 +15,7 @@ int main() {
 		cout << valuesArray[i]<< endl;
 		total = total + valuesArray[i];
 	}
-	cout << total;
+	cout << total << endl;
 
 	system("pause");
 	return 0;
