@@ -22,13 +22,13 @@ int main()
 	}
 
 	sort(ints, ints + size(ints));
-	cout << "\ndecrease" << endl;
+	cout << "\nAscend" << endl;
 	for (int i = 0; i < size(ints); i++) {
 		cout << ints[i] << endl;
 	}
 
 	sort(ints, ints + size(ints), wayToSort);
-	cout << "\nincrease" << endl;
+	cout << "\nDescend" << endl;
 	for (int i = 0; i < size(ints); i++) {
 		cout << ints[i] << endl;
 	}
